@@ -1,5 +1,12 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
+
+#Example of KMeans using a dataset created from a relational DB.
+
+
+#Star's model in relation DB (Data warehouses) are very common in enterprises,
+#however one could use that data to create labeled datasets to be processed by a
+#Machine Learning algorithm, in this case I have used KMeans to clustered the data, and find the Insights.
 """
 Created on Fri Dec  6 11:33:15 2019
 
