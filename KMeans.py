@@ -1,15 +1,14 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-#Example of KMeans using a dataset created from a relational DB.
-#Star's model in relation DB (Data warehouses) are very common in enterprises,
+#Example of KMeans using a dataset created from a Star's model 
+#designed and stored in a relation DB (Data warehouses) that are very common in enterprises,
 #however one could use that data to create labeled datasets to be processed by a
-#Machine Learning algorithm, in this case I have used KMeans to clustered the data, and find the Insights.
+#Machine Learning algorithm, in this case I have used KMeans to clusterized the data, and find the Insights.
 #BI reference video: https://www.youtube.com/watch?v=FX8MYJ7Qb4Y
 
 #Reference code video: Unsupervised Machine Learning - Flat Clustering with KMeans with Scikit-learn and Python.
 #https://www.youtube.com/watch?v=ZS-IM9C3eFg
-
 
 
 """
@@ -37,7 +36,7 @@ plt.scatter(x,y)
 plt.show()
 
 #BI's indicators.
-#[indicator1,indicator2,indicator3,indicator4]
+#Dataset[indicator1,indicator2,indicator3,indicator4]
 
 X = np.array([[20,24,4174,1],
 	      [10, 18, 4100,4],
@@ -77,7 +76,7 @@ centroids = kmeans.cluster_centers_
 labels = kmeans.labels_
 
 print(centroids)
-print(labels)
+print(labels) #cluster where each data-point belongs
 
 colors = ["g.", "r.", "c."]
 
