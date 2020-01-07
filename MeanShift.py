@@ -14,6 +14,8 @@ Business Intelligence for study which cluster belongs to
 As opposed to the KMeans, when using MeanShift, 
 you don't need to know the numbers of clusters (categories)
  beforehand.
+
+Video: https://www.youtube.com/watch?v=4dXnICncHJw
 """
 
 import numpy as np 
@@ -35,6 +37,7 @@ y = data.iloc[:, 1].values  #indicator_1
 plt.scatter(x,y)
 plt.show()
 
+#d0 = data.iloc[:, 0].values #indicator_0  This indicator is null in the dataset.xlsx
 d1 = data.iloc[:, 1].values #indicator_1
 d2 = data.iloc[:, 2].values #indicator_2
 d3 = data.iloc[:, 3].values #indicator_3
