@@ -8,9 +8,11 @@ Created on Thu Jan 16 20:45:39 2020
 Quasi Apriori data mining algorithm 
 
 - Inspired by the Apriori data mining algorithm.
-- Its goal is to analyze a boolean dataset and create pairs of items. 
-   Ie (Item1, Item2) - (Item3, Item4) - (Item5, Item6).
+- Its goal is to analyze a boolean dataset and creates pairs of items. 
+   I.e (Item1, Item2) - (Item3, Item4) - (Item5, Item6).
 - A support threshold is calculated to have a minimum reference for a pair to be considered as useful information.
+
+Video of the algorithm: https://youtu.be/7B9lXzsDmP0
 
 """
 
