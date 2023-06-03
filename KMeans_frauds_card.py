@@ -4,6 +4,8 @@ Jan Beeck
 May-05-23
 
 Fraud Detection Segemention
+
+Video explanation: https://youtu.be/eIcS1DTKs1A
 """
 
 # Imports
